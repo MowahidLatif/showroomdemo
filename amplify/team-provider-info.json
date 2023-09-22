@@ -15,7 +15,7 @@
       "function": {
         "showroomHandler": {
           "deploymentBucketName": "amplify-r3fcarviewer-dev-90441-deployment",
-          "s3Key": "amplify-builds/showroomHandler-7645383730626459434d-build.zip"
+          "s3Key": "amplify-builds/showroomHandler-32557a6e635255706c44-build.zip"
         }
       },
       "api": {
