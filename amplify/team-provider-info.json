@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-r3fcarviewer-dev-90441-authRole",
+      "UnauthRoleArn": "arn:aws:iam::149532448551:role/amplify-r3fcarviewer-dev-90441-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::149532448551:role/amplify-r3fcarviewer-dev-90441-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-r3fcarviewer-dev-90441-deployment",
+      "UnauthRoleName": "amplify-r3fcarviewer-dev-90441-unauthRole",
+      "StackName": "amplify-r3fcarviewer-dev-90441",
+      "StackId": "arn:aws:cloudformation:us-west-1:149532448551:stack/amplify-r3fcarviewer-dev-90441/fd5e3750-5950-11ee-833d-066e5eb43061",
+      "AmplifyAppId": "d2qssrpvknxb5x"
+    },
+    "categories": {
+      "function": {
+        "showroomHandler": {
+          "deploymentBucketName": "amplify-r3fcarviewer-dev-90441-deployment",
+          "s3Key": "amplify-builds/showroomHandler-655453314c306634314d-build.zip"
+        }
+      },
+      "api": {
+        "apicf025227": {}
+      }
+    }
+  }
+}

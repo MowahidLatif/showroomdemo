@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/visualizer/{carID}": {
+      "name": "/visualizer/{carID}",
+      "lambdaFunction": "showroomHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

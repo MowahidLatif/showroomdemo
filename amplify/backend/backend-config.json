@@ -1,0 +1,43 @@
+{
+  "api": {
+    "apicf025227": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "showroomHandler"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "showroomHandler": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_showroomHandler_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "showroomHandler"
+        }
+      ]
+    },
+    "AMPLIFY_function_showroomHandler_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "showroomHandler"
+        }
+      ]
+    }
+  }
+}
