@@ -1,0 +1,32 @@
+.Appheader {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Appheader .title {
+    color: #fff;
+    padding: .5rem;
+}
+
+.Appheader .info {
+    display: flex;
+    gap: 1.5rem; /* Reduced gap for mobile */
+    color: #fff;
+    padding: .5rem;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .Appheader {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Appheader .info {
+        gap: 1rem;
+        flex-direction: column;
+    }
+}
