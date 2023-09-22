@@ -23,6 +23,9 @@
       },
       "storage": {
         "emailauth360": {}
+      },
+      "api": {
+        "apivisualizer": {}
       }
     }
   }
