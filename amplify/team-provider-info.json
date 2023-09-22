@@ -18,9 +18,6 @@
           "s3Key": "amplify-builds/showroomHandler-32557a6e635255706c44-build.zip"
         }
       },
-      "api": {
-        "visualizerAPI": {}
-      },
       "auth": {
         "r3fcarviewer171d8a9b": {}
       },
