@@ -15,6 +15,34 @@
       "service": "API Gateway"
     }
   },
+  "auth": {
+    "r3fcarviewer171d8a9b": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
   "function": {
     "showroomHandler": {
       "build": true,
@@ -38,6 +66,23 @@
           "resourceName": "showroomHandler"
         }
       ]
+    }
+  },
+  "storage": {
+    "emailauth360": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "LambdaExecutionRole"
+          ],
+          "category": "function",
+          "resourceName": "showroomHandler"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
     }
   }
 }

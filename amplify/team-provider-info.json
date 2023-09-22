@@ -20,6 +20,12 @@
       },
       "api": {
         "visualizerAPI": {}
+      },
+      "auth": {
+        "r3fcarviewer171d8a9b": {}
+      },
+      "storage": {
+        "emailauth360": {}
       }
     }
   }
