@@ -1,8 +1,8 @@
 {
   "version": 1,
   "paths": {
-    "/visualizer/{carID}": {
-      "name": "/visualizer/{carID}",
+    "/visualizer": {
+      "name": "/visualizer",
       "lambdaFunction": "showroomHandler",
       "permissions": {
         "setting": "open"

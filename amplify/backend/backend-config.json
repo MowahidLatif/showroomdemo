@@ -1,6 +1,6 @@
 {
   "api": {
-    "apicf025227": {
+    "visualizerAPI": {
       "dependsOn": [
         {
           "attributes": [
