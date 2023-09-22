@@ -5,12 +5,11 @@ const CarViewer = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [lastX, setLastX] = useState(null);
-  const [images, setImages] = useState([]);  // State to store signed URLs
+  const [images, setImages] = useState([]);
   const accumulatedDeltaX = useRef(0); 
 
   const meshRef = useRef();
 
-  // Fetch signed URLs from the Lambda function when the component mounts
   useEffect(() => {
     const fetchImages = async () => {
       try {
